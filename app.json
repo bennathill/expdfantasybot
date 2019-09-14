@@ -1,0 +1,53 @@
+{
+  "name": "Fantasy Football Chat Bot",
+  "description": "ESPN Fantasy Football GroupMe, Slack, and Discord Chat Bot.",
+  "keywords": [
+    "fantasy football",
+    "espn",
+    "groupme",
+    "slack",
+    "discord",
+    "chat bot",
+    "ff"
+  ],
+  "website": "https://github.com/dtcarls/ff_bot/",
+  "repository": "https://github.com/dtcarls/ff_bot/",
+  "env": {
+    "BOT_ID": {
+      "description": "GroupMe Bot ID",
+      "value": "1"
+    },
+    "SLACK_WEBHOOK_URL": {
+      "description": "Slack Webhook URL",
+      "value": "1"
+    },
+    "DISCORD_WEBHOOK_URL": {
+      "description": "Discord Webhook URL",
+      "value": "1"
+    },
+    "LEAGUE_ID": {
+      "description": "ESPN League ID",
+      "value": "1"
+    },
+    "LEAGUE_YEAR": {
+      "description": "ESPN League Year",
+      "value": "2019"
+    },
+    "TIMEZONE": {
+      "description": "League timezone for sending messages",
+      "value": "America/New_York"
+    },
+    "START_DATE": {
+      "description": "Season Start Date",
+      "value": "2019-09-04"
+    },
+    "END_DATE": {
+      "description": "Season End Date",
+      "value": "2019-12-30"
+    },
+    "INIT_MSG": {
+      "description": "Bot Init Message",
+      "value": "Hi"
+    }
+  }
+}
